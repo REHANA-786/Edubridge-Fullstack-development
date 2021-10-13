@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style type="text/css">
+    *{
+        margin:0;
+        padding:0;
+    }
+     
+    body{
+            background:url("Ad3.jpeg");
+           background-repeate:no-repeate;
+           background-size:100% 100%;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           margin-top: 40px;
+    
+        }
+        .regform{
+            width:800px;
+            background-color:rgb(132, 196, 221);
+            margin:auto;
+            color=#ffffff;
+            padding:10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .main{
+            background-color: rgba(93, 107, 230, 0.5);
+            width:800px;
+            margin:auto;
+        }
+        form{
+            padding: 10px;
+
+        }
+        #name{
+            width:100%;
+            height:100px;
+        }
+        .name{
+            margin-left: 25px;
+            margin-top: 30px;
+            width: 125px;
+            color:white;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+        .firstname{
+            position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+        }
+        
+        }
+
+        .lastname{
+            position: relative;
+            left: 417px;
+            top: -80px;
+            line-height: 40px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .firstlabel{
+            position: relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left:203px;
+            top:-35px;
+        }
+        .lastlabel{
+             position: relative;
+            color:#E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left:300px;
+            top:-50px;
+        }
+        .Email{
+            position: relative
+            left:200px;
+            top:-37px;
+            line-height:40px;
+            width:480px;
+            border-radius:6px;
+            padding:0 22px;
+            font-size:16px;
+            color:#555;
+
+        }
+        #c
+
+        .code{
+            position: relative;
+            left:200px;
+            line-height: 40px;
+            width: 95px;;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size:16px;
+            color:rgb(179, 226, 245);
+        }
+        .number{
+            position: relative;
+            left:200px;
+            line-height: 40px;
+            width: 260px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size:16px;
+            color:#555;
+
+        }
+         .Percentage{
+              position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+
+
+         }
+         .area-code{
+             position: relative;
+             color:#E5E5E5;
+             text-transform: capitalize;
+             font-size:16px;
+             left:5px;
+             top:-4px;
+         }
+         .phone-number{
+            position: relative;
+             color:#E5E5E5;
+             text-transform: capitalize;
+             font-size:16px;
+             left:-100px;
+             top=-2px;
+         }
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class="regform"> <h1>Registration Form</h1></div>
+    <div class="main">
+        <form>
+            <div id="name">
+                <h2 class="name">Name:</h2>
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">First name</label>
+                <input class="lastname" type="text" name="last_name">
+                <label class="lastlabel">Last name</label>
+           
+
+            <h2 class="name">Father Name:</h2>
+            <input class="firstname" type="text" name="first_name"><br>
+            <label class="firstlabel">First name</label>
+            <input class="lastname" type="text" name="Last_name">
+             <label class="lastlabel">Last name</label>
+
+
+
+             <h2 class="name">Mother Name:</h2>
+            <input class="firstname" type="text" name="first_name"><br>
+             <label class="firstlabel">First name</label>
+             <input class="lastname" type="text" name="Last_name">
+            <label class="lastlabel">Last name</label>
+
+        </div>
+             <h2 class="name">Select DOB:</h2>
+            <input type="date" name="DOB">
+                
+
+
+                <h2 class="name">Email</h2>
+                <input class="Email" type="text" name="Email">
+
+
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text"  name="area_code">
+                <label class="area-code">Area Code</label>
+                <input class="number"type="text" name="phone">
+                <label class="phone-number"> Phone Number</label>
+
+
+
+               
+
+
+
+                   <h2 class="name">Select Gender:</h2>
+                    <input type="radio" name="Gender" checked true>Male
+                     <input type="radio" name="Gender" checked true>Female
+                    <input type="radio" name="Gender" checked true>Other
+                    
+                    <h2 class="name">Permamnent Address:</h2>
+                        <textarea name="padd" placeholder="Enter address with Door no" row=="55" cols="45" ></textarea>
+
+
+                        <h2 class="name">State:</h2>
+                        <input type="text">
+
+
+
+                        <h2 class="name">City:</h2>
+                    <input type="text">
+
+
+
+                    <h2 class="name">Pin Code:</h2>
+                    <input type="text">
+
+
+
+
+
+
+                    <h2 class="name">10 Passedout:</h2>
+                    <select class="option"  name="pass">
+                        <option disable="disable" selected="selected"></option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                    </select>
+                        
+                
+
+
+
+
+                <h2 class="name">10th Percentage(%):</h2>
+                <input type="text">
+                <label class="Percentage">Percentage</label>
+
+
+
+
+
+                    <h2 class="name">12/Dip Passedout:</h2>
+                    <select class="option" name="pass">
+                        <option disable="disable" selected="selected"></option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                    
+                    </select>
+
+                    <h2 class="name">12th/Dip Percentage(%):</h2>
+                    <input type="text">
+                    <label class="Percentage">Percentage</label>
+
+
+                <h2 class="name">CET Regno:</h2>
+                <input type="text">
+                <label class="Percentage">CET Number</label>
+
+
+                <h2 class="name">CET Ranking:</h2>
+                <input type="text">
+                <label class="Percentage">Ranking</label>
+
+
+
+
+
+                <h2 class="name">Native Language</h2>
+                <select class="option" name="language">
+                    <option disable="" seelected=""><!--Choose Option--></option>
+                    <option>Hindi</option>
+                    <option>Kannada</option>
+                    <option>Urdu</option>
+                    <option>Telugu</option>
+                    <option>English</option>
+                    <option>other</option>
+                </select>
+
+
+                    <h2 class="name">Departments</h2>
+                    <select class="option" name="Subject">
+                        <option disable="Choose dept as u wish" seelected="Choose dept as u wish"><!--Choose Option--></option>
+                        <option>Civil Engineering</option>
+                        <option>Mechanical Engineering</option>
+                        <option>Electrical Engineering</option>
+                        <option>E&E Engineering</option>
+                        <option>E&C Engineering</option>
+                        <option>CS Engineering</option>
+                        <option>IT  Engineering</option>
+                    </select>
+                 
+                     <br><br><br>
+                    <button type="submit">Register</button>
+                    <button type="Reset">Reset</button>
+
+
+        </form>
+
+
+
+
+    </div>
+</body>
+</html>
